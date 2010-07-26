@@ -1,6 +1,6 @@
 package Net::HTTP::API::Error;
 BEGIN {
-  $Net::HTTP::API::Error::VERSION = '0.13';
+  $Net::HTTP::API::Error::VERSION = '0.14';
 }
 
 # ABSTRACT: Throw error
@@ -45,7 +45,7 @@ Net::HTTP::API::Error - Throw error
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -59,7 +59,7 @@ or
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

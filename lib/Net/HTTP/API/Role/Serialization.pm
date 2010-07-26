@@ -1,6 +1,6 @@
 package Net::HTTP::API::Role::Serialization;
 BEGIN {
-  $Net::HTTP::API::Role::Serialization::VERSION = '0.13';
+  $Net::HTTP::API::Role::Serialization::VERSION = '0.14';
 }
 
 # ABSTRACT: do (de)serialization
@@ -90,7 +90,7 @@ Net::HTTP::API::Role::Serialization - do (de)serialization
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -118,7 +118,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

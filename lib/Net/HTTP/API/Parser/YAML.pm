@@ -1,6 +1,6 @@
 package Net::HTTP::API::Parser::YAML;
 BEGIN {
-  $Net::HTTP::API::Parser::YAML::VERSION = '0.13';
+  $Net::HTTP::API::Parser::YAML::VERSION = '0.14';
 }
 
 # ABSTRACT: Parse YAML
@@ -31,7 +31,7 @@ Net::HTTP::API::Parser::YAML - Parse YAML
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -39,7 +39,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

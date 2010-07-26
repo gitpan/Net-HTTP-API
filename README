@@ -2,7 +2,7 @@ NAME
     Net::HTTP::API - Easily create client for net API
 
 VERSION
-    version 0.13
+    version 0.14
 
 SYNOPSIS
         package My::Net::API;
@@ -182,7 +182,7 @@ DESCRIPTION
           in the url, and not as content in the header.
 
 AUTHOR
-      franck cuny <franck@lumberjaph.net>
+    franck cuny <franck@lumberjaph.net>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by linkfluence.

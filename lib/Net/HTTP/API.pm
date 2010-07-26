@@ -4,6 +4,7 @@ package Net::HTTP::API;
 
 use Moose;
 use Moose::Exporter;
+use Moose::Util::MetaRole;
 
 our $VERSION = '0.11';
 
@@ -31,8 +32,10 @@ sub init_meta {
     Moose->init_meta(%options);
 
     my $meta = Moose::Util::MetaRole::apply_metaroles(
-        for_class       => $for,
-        metaclass_roles => ['Net::HTTP::API::Meta::Class'],
+        for       => $for,
+        class_metaroles => {
+            class => ['Net::HTTP::API::Meta::Class'],
+        },
     );
 
     Moose::Util::MetaRole::apply_base_class_roles(
@@ -63,7 +66,7 @@ Net::HTTP::API - Easily create client for net API
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -299,7 +302,7 @@ When you do a post, the content may have to be sent as arguments in the url, and
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

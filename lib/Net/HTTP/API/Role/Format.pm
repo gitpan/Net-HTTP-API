@@ -1,6 +1,6 @@
 package Net::HTTP::API::Role::Format;
 BEGIN {
-  $Net::HTTP::API::Role::Format::VERSION = '0.13';
+  $Net::HTTP::API::Role::Format::VERSION = '0.14';
 }
 
 # ABSTRACT: Set appropriate format to request header
@@ -55,7 +55,7 @@ Net::HTTP::API::Role::Format - Set appropriate format to request header
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -81,7 +81,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

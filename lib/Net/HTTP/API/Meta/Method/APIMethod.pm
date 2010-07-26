@@ -1,6 +1,6 @@
 package Net::HTTP::API::Meta::Method::APIMethod;
 BEGIN {
-  $Net::HTTP::API::Meta::Method::APIMethod::VERSION = '0.13';
+  $Net::HTTP::API::Meta::Method::APIMethod::VERSION = '0.14';
 }
 
 # ABSTRACT: declare API method
@@ -96,7 +96,7 @@ Net::HTTP::API::Meta::Method::APIMethod - declare API method
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -133,7 +133,7 @@ Add a net api method
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

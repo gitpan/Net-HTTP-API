@@ -31,6 +31,7 @@ my %WriteMakefileArgs = (
     'Moose::Exporter' => '0',
     'Moose::Meta::Method' => '0',
     'Moose::Role' => '0',
+    'Moose::Util::MetaRole' => '0',
     'Moose::Util::TypeConstraints' => '0',
     'MooseX::Types::Moose' => '0',
     'MooseX::Types::URI' => '0',
@@ -39,7 +40,7 @@ my %WriteMakefileArgs = (
     'YAML::Syck' => '0',
     'overload' => '0'
   },
-  'VERSION' => '0.13',
+  'VERSION' => '0.14',
   'test' => {
     'TESTS' => 't/*.t'
   }

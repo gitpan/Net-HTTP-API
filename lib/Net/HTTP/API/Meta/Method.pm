@@ -1,6 +1,6 @@
 package Net::HTTP::API::Meta::Method;
 BEGIN {
-  $Net::HTTP::API::Meta::Method::VERSION = '0.13';
+  $Net::HTTP::API::Meta::Method::VERSION = '0.14';
 }
 
 # ABSTRACT: create api method
@@ -20,7 +20,7 @@ subtype UriPath
 
 enum Method => qw(HEAD GET POST PUT DELETE);
 
-has path   => (is => 'ro', isa => 'UriPath', required => 1, coerce => 1);
+has path   => (is => 'ro', isa => 'UriPath', required => 1);
 has method => (is => 'ro', isa => 'Method', required => 1);
 has description => (is => 'ro', isa => 'Str',  predicate => 'has_description');
 has strict      => (is => 'ro', isa => 'Bool', default   => 1,);
@@ -237,7 +237,7 @@ Net::HTTP::API::Meta::Method - create api method
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -245,7 +245,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

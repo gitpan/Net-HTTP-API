@@ -28,6 +28,7 @@
             "Moose::Exporter" : 0,
             "Moose::Meta::Method" : 0,
             "Moose::Role" : 0,
+            "Moose::Util::MetaRole" : 0,
             "Moose::Util::TypeConstraints" : 0,
             "MooseX::Types::Moose" : 0,
             "MooseX::Types::URI" : 0,
@@ -57,7 +58,7 @@
          "url" : "git://github.com/franckcuny/net-http-api.git"
       }
    },
-   "version" : "0.13",
+   "version" : "0.14",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -163,7 +164,7 @@
          {
             "class" : "Dist::Zilla::Plugin::EOLTests",
             "name" : "EOLTests",
-            "version" : "0.01"
+            "version" : "0.02"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaResources",
@@ -173,7 +174,7 @@
          {
             "class" : "Dist::Zilla::Plugin::PodWeaver",
             "name" : "PodWeaver",
-            "version" : "3.100710"
+            "version" : "3.101640"
          },
          {
             "class" : "Dist::Zilla::Plugin::AutoPrereq",
@@ -183,7 +184,7 @@
          {
             "class" : "Dist::Zilla::Plugin::ReadmeFromPod",
             "name" : "ReadmeFromPod",
-            "version" : "0.11"
+            "version" : "0.12"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckChangeLog",

@@ -1,6 +1,6 @@
 package Net::HTTP::API::Parser::XML;
 BEGIN {
-  $Net::HTTP::API::Parser::XML::VERSION = '0.13';
+  $Net::HTTP::API::Parser::XML::VERSION = '0.14';
 }
 
 # ABSTRACT: Parse XML result
@@ -38,7 +38,7 @@ Net::HTTP::API::Parser::XML - Parse XML result
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -46,7 +46,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -1,6 +1,6 @@
 package Net::HTTP::API::Role::Request;
 BEGIN {
-  $Net::HTTP::API::Role::Request::VERSION = '0.13';
+  $Net::HTTP::API::Role::Request::VERSION = '0.14';
 }
 
 # ABSTRACT: make HTTP request
@@ -71,7 +71,7 @@ Net::HTTP::API::Role::Request - make HTTP request
 
 =head1 VERSION
 
-version 0.13
+version 0.14
 
 =head1 SYNOPSIS
 
@@ -95,7 +95,7 @@ version 0.13
 
 =head1 AUTHOR
 
-  franck cuny <franck@lumberjaph.net>
+franck cuny <franck@lumberjaph.net>
 
 =head1 COPYRIGHT AND LICENSE
 
